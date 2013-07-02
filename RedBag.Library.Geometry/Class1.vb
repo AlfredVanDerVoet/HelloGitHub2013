@@ -8,5 +8,6 @@
     Public MustOverride Function WeightUnitMaterial() As Double
     Public MustOverride Function NormalVector() As Double()
 
+    Public MustOverride Function ContentVolumn(Percentage As Double) As Double
 
 End Class
