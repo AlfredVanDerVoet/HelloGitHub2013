@@ -1,5 +1,7 @@
 ﻿Public MustInherit Class Geometry3D
 
+    Public MustOverride Function Id() As String
+
     Public MustOverride Function OuterSurfaceArea() As Double
     Public MustOverride Function InternalSurfaceArea() As Double
     Public MustOverride Function IsSolid() As Double
